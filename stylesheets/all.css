@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.principal-nav {
+  height: 54px;
+  margin-bottom: 30px;
+}
+
+.sign-in {
+  display: block;
+  float: right;
+  margin: 5px 30px 0 0;
+}
+
+.logo {
+  background: url(../images/kampo-marino-logo.png) no-repeat;
+  display: block;
+  float: left;
+  height: 37px;
+  margin: 10px 30px;
+  text-indent: -10000px;
+  width: 100px;
+}
+
+.principal-menu {
+  float: right;
+  margin-right: 30px;
+}
+
+.principal-menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.principal-menu li:last-child {
+  margin-right: 0;
+}
+
+.principal-menu li a {
+  color: #48457F;
+  padding-bottom: 5px;
+}
+
+.principal-menu li a:hover {
+  border-bottom: 3px solid #484577;
+}
+
+a {
+  color: #1F7E95;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #32B1B7;
+}
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.home-principal-image {
+  margin: 0 auto;
+}
