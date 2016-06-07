@@ -3,14 +3,15 @@ html, body {
 }
 
 body {
-  font-family: 'Lato', Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
 
 .principal-nav {
-  height: 54px;
-  margin-bottom: 30px;
+  background: #44384f;
+  color: #fff;
+  height: 60px;
 }
 
 .sign-in {
@@ -31,7 +32,7 @@ body {
 
 .principal-menu {
   float: right;
-  margin-right: 30px;
+  margin-top: 20px;
 }
 
 .principal-menu li {
@@ -44,7 +45,9 @@ body {
 }
 
 .principal-menu li a {
-  color: #48457F;
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
   padding-bottom: 5px;
 }
 
@@ -69,4 +72,40 @@ a:hover {
 
 .home-principal-image {
   margin: 0 auto;
+}
+
+.first-scroll {
+  background: url(https://unsplash.it/1600/2000/?random) no-repeat;
+  height: 100%;
+}
+
+.first-scroll .container {
+  padding: 15%;
+}
+
+.main-title {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button.button-big {
+  background: #44384f;
+  border: none;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  height: 60px;
+  padding: 10px;
+  margin: auto;
+  width: 300px;
 }
