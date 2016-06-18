@@ -96,6 +96,7 @@ a:hover {
   font-weight: 300;
   font-size: 30px;
   line-height: 32px;
+  margin-bottom: 0px; 
 }
 
 .section-title span {
@@ -129,4 +130,51 @@ button.button-big {
 
 .section-block {
   padding-top: 90px;
+}
+
+.section-block a {
+  color: #330066;
+}
+
+.section-block p {
+  color: #333;
+  font-family: 'Roboto', arial, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.purple-dash {
+  background-color: #493c55;
+  display: inline-block;
+  height: 4px;
+  margin: 20px 0;
+  padding: 0;
+  width: 50px;
+}
+
+.how .container {
+  background: url(https://unsplash.it/1600/2000/?random) no-repeat;
+}
+
+.how .board {
+  background: rgba(73,60,85, 0.9);
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.how h1, .how p {
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+.how hr {
+  background-color: #fff;
+  display: block;
+  margin: 20px auto;
+}
+
+.board-text {
+  margin: 50px auto;
 }
