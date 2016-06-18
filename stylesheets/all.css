@@ -91,6 +91,18 @@ a:hover {
   margin: 0 auto 20px;
 }
 
+.section-title {
+  font-family: 'Roboto Condensed', arial, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: right;
+}
+
+.section-title span {
+  font-family: 'League Gothic', arial, sans-serif;
+  font-size: 57px;
+}
+
 .subtitle {
   color: #fff;
   font-size: 26px;
