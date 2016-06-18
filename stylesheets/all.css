@@ -129,7 +129,7 @@ button.button-big {
 }
 
 .section-block {
-  padding-top: 90px;
+  padding: 90px 0;
 }
 
 .section-block a {
@@ -151,6 +151,10 @@ button.button-big {
   margin: 20px 0;
   padding: 0;
   width: 50px;
+}
+
+.how.section-block {
+  padding: 0;
 }
 
 .how .container {
@@ -206,4 +210,12 @@ button.button-big {
   content: " ";
   clear: both;
   height: 0;
+}
+
+.comments.section-block {
+  background: #44384f;
+}
+
+.comments p {
+  color: #fff;
 }
