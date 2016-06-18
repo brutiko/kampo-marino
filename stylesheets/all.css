@@ -70,6 +70,9 @@ a:hover {
   text-align: center;
 }
 
+
+/* HOME */
+
 .home-principal-image {
   margin: 0 auto;
 }
@@ -233,6 +236,33 @@ button.button-big {
   height: 315px;
   width: 300px;
 }
+
+/* PRODUTOS */
+
+.top-image {
+  background: url(https://unsplash.it/1600/2000/?random) no-repeat;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.products-wrapper li {
+  list-style: none;
+}
+
+.products-wrapper aside ul {
+  margin-bottom: 40px;
+}
+
+.products-list-thumb li,
+.products-list-thumb li:first-child {
+  margin: 0 10px 20px;
+}
+
+.products-list-thumb li img {
+  max-width: 100%;
+}
+
+/* FOOTER */
 
 footer {
   background: url(https://unsplash.it/1600/2000/?random) no-repeat;
