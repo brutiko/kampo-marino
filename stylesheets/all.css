@@ -178,3 +178,32 @@ button.button-big {
 .board-text {
   margin: 50px auto;
 }
+
+.products-thumbs li {
+  float: left;
+  list-style: none;
+}
+
+.products-thumbs li.third-child {
+  margin-left: 0;
+}
+
+.products h1,
+.products p,
+.products a {
+  text-align: right;
+}
+
+.products hr,
+.products a {
+  float: right;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
