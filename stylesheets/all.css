@@ -233,3 +233,96 @@ button.button-big {
   height: 315px;
   width: 300px;
 }
+
+footer {
+  background: url(https://unsplash.it/1600/2000/?random) no-repeat;
+  color: #fff;
+  padding: 40px 0 10px;
+}
+
+footer .footer-grid {
+  margin-bottom: 70px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer .copyright {
+  font-size: 12px;
+}
+
+footer .copyright p {
+  text-align: right;
+}
+
+footer .social-media {
+  float: right;
+}
+
+footer .social-media li {
+  display: inline;
+  float: left;
+  margin: 0 14px;
+  height: 36px;
+  text-indent: -20000px;
+  width: 36px;
+}
+
+footer .social-media li.social-media-google {
+  background-image: url(../images/icons-sprite.png);
+  background-position: -84px -5px;
+}
+
+footer .social-media li.social-media-facebook {
+  background-image: url(../images/icons-sprite.png);
+  background-position: -84px -47px;
+}
+
+footer .social-media li.social-media-instagram {
+  background-image: url(../images/icons-sprite.png);
+  background-position: -84px -95px;
+  margin-right: 0;
+}
+
+footer .contact-list li {
+  line-height: 40px;
+  text-indent: 10px;
+}
+
+footer .contact-list li span {
+  float: left;
+  height: 40px;
+  text-indent: -20000px;
+  width: 40px;
+}
+
+footer .contact-list li.contact-list-whatsapp span {
+  background-image: url(../images/icons-sprite.png);
+  background-position: -41px 2px;
+}
+
+footer .contact-list li.contact-list-phone span {
+  background-image: url(../images/icons-sprite.png);
+  background-position: -41px -37px;
+}
+
+footer .contact-list li.contact-list-email span {
+  background-image: url(../images/icons-sprite.png);
+  background-position: -41px -71px;
+  margin-right: 0;
+}
+
+footer .address p {
+  margin-left: 50px;
+}
+
+footer .address span {
+  float: left;
+  height: 32px;
+  text-indent: -20000px;
+  width: 40px;
+  background-image: url(../images/icons-sprite.png);
+  background-position: -39px -109px;  
+}
+
