@@ -94,13 +94,14 @@ a:hover {
 .section-title {
   font-family: 'Roboto Condensed', arial, sans-serif;
   font-weight: 300;
-  font-size: 40px;
-  text-align: right;
+  font-size: 30px;
+  line-height: 32px;
 }
 
 .section-title span {
   font-family: 'League Gothic', arial, sans-serif;
-  font-size: 57px;
+  font-size: 60px;
+  line-height: 62px;
 }
 
 .subtitle {
@@ -120,4 +121,12 @@ button.button-big {
   padding: 10px;
   margin: auto;
   width: 300px;
+}
+
+.image-medium {
+  max-width: 100%;
+}
+
+.section-block {
+  padding-top: 90px;
 }
