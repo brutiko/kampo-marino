@@ -194,12 +194,15 @@ button.button-big {
 
 .products h1,
 .products p,
-.products a {
+.contact h1,
+.contact p {
   text-align: right;
 }
 
 .products hr,
-.products a {
+.products a,
+.contact hr,
+.contact a {
   float: right;
 }
 
@@ -218,4 +221,15 @@ button.button-big {
 
 .comments p {
   color: #fff;
+}
+
+.contact-form {
+  background: #ccc;
+}
+
+.contact-form p {
+  font-size: 16px;
+  font-style: italic;
+  height: 315px;
+  width: 300px;
 }
