@@ -8,6 +8,23 @@ body {
   line-height: 20px;
 }
 
+p {
+  color: #333;
+  font-family: 'Roboto', arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+a {
+  color: #44384f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #44384f;
+}
+
 .principal-nav {
   background: #44384f;
   color: #fff;
@@ -25,7 +42,7 @@ body {
   display: block;
   float: left;
   height: 37px;
-  margin: 10px 30px;
+  margin: 10px 0;
   text-indent: -10000px;
   width: 100px;
 }
@@ -53,15 +70,6 @@ body {
 
 .principal-menu li a:hover {
   border-bottom: 3px solid #484577;
-}
-
-a {
-  color: #1F7E95;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #32B1B7;
 }
 
 .content {
@@ -99,7 +107,7 @@ a:hover {
   font-weight: 300;
   font-size: 30px;
   line-height: 32px;
-  margin-bottom: 0px; 
+  margin: 0px; 
 }
 
 .section-title span {
@@ -142,9 +150,9 @@ button.button-big {
 .section-block p {
   color: #333;
   font-family: 'Roboto', arial, sans-serif;
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 26px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .purple-dash {
@@ -245,21 +253,84 @@ button.button-big {
   margin-bottom: 30px;
 }
 
+.top-image .main-title {
+  font-family: 'League Gothic', arial, sans-serif;
+  font-size: 60px;
+  line-height: 62px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  padding-top: 120px;
+}
+
 .products-wrapper li {
   list-style: none;
+}
+
+.products-wrapper aside li {
+  color: #666;
+}
+
+.products-wrapper aside li a {
+  color: #44384f;
+  padding: 4px;
+}
+
+.products-wrapper aside li a:hover {
+  background-color: #44384f;
+  text-decoration: none; 
+  color: #fff;
 }
 
 .products-wrapper aside ul {
   margin-bottom: 40px;
 }
 
+.products-wrapper button {
+  margin: 40px auto 80px;
+}
+
+.products-list-thumb span {
+  display: block;
+  padding: 10px;
+}
+
 .products-list-thumb li,
 .products-list-thumb li:first-child {
+  background-color: #f5f5f5;
   margin: 0 10px 20px;
 }
 
 .products-list-thumb li img {
   max-width: 100%;
+}
+
+.products-list-thumb h1 {
+  font-family: 'League Gothic', arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  margin: 10px 0 10px;
+  line-height: 30px;
+}
+
+.products-list-thumb small {
+  margin-top: 0;
+}
+
+/* QUEM SOMOS */
+
+.structure p {
+  margin: 0 20px 40px 0;
+}
+
+.structure li {
+  list-style: none;
+}
+
+.structure-type h2 {
+  color: #666;
+  font-family: 'League Gothic', arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.3px;
 }
 
 /* FOOTER */
@@ -278,11 +349,9 @@ footer li {
   list-style: none;
 }
 
-footer .copyright {
-  font-size: 12px;
-}
-
 footer .copyright p {
+  color: #fff;
+  font-size: 12px;
   text-align: right;
 }
 
@@ -315,39 +384,40 @@ footer .social-media li.social-media-instagram {
   margin-right: 0;
 }
 
-footer .contact-list li {
+.contact-list li {
   line-height: 40px;
   text-indent: 10px;
 }
 
-footer .contact-list li span {
+.contact-list li span {
   float: left;
   height: 40px;
   text-indent: -20000px;
   width: 40px;
 }
 
-footer .contact-list li.contact-list-whatsapp span {
+.contact-list li.contact-list-whatsapp span {
   background-image: url(../images/icons-sprite.png);
   background-position: -41px 2px;
 }
 
-footer .contact-list li.contact-list-phone span {
+.contact-list li.contact-list-phone span {
   background-image: url(../images/icons-sprite.png);
   background-position: -41px -37px;
 }
 
-footer .contact-list li.contact-list-email span {
+.contact-list li.contact-list-email span {
   background-image: url(../images/icons-sprite.png);
   background-position: -41px -71px;
   margin-right: 0;
 }
 
-footer .address p {
+.address p {
+  color: #fff;
   margin-left: 50px;
 }
 
-footer .address span {
+.address span {
   float: left;
   height: 32px;
   text-indent: -20000px;
@@ -356,3 +426,39 @@ footer .address span {
   background-position: -39px -109px;  
 }
 
+.contact-info li {
+  list-style: none;
+}
+
+.contact-info p {
+  text-align: left;
+}
+
+.contact-info .contact-list li.contact-list-whatsapp span {
+  background-position: 2px 2px;
+}
+
+.contact-info .contact-list li.contact-list-phone span {
+  background-position: 2px -37px;
+}
+
+.contact-info .contact-list li.contact-list-email span {
+  background-position: 2px -71px;
+  margin-right: 0;
+}
+
+.contact-info .address {
+  margin: 18px 0 0;
+}
+
+.contact-info .address p {
+  color: #666;
+}
+
+.contact-info .address span {
+  background-position: 2px -109px;
+}
+
+.maps {
+  margin-top: 20px;
+}
