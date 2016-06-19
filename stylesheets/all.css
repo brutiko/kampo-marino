@@ -316,6 +316,28 @@ button.button-big {
   margin-top: 0;
 }
 
+/* PRODUTOS DETALHE */
+
+.product-details h1 {
+  margin-top: 0;
+}
+
+.product-photos {
+  margin-top: 40px;
+}
+
+.product-photos img {
+  max-width: 100%;
+}
+
+.product-photos ul {
+  margin-top: 20px;
+}
+
+.product-details .structure-type {
+  margin-top: 40px;
+}
+
 /* QUEM SOMOS */
 
 .structure p {
