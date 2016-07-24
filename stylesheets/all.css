@@ -318,12 +318,16 @@ button.button-big {
 
 /* PRODUTOS DETALHE */
 
-.product-details h1 {
-  margin-top: 0;
+.product-details .product-name {
+  font-family: 'League Gothic', arial, sans-serif;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+  line-height: 42px;
+  margin: 0;
 }
 
 .product-photos {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .product-photos img {
@@ -338,6 +342,10 @@ button.button-big {
   margin-top: 40px;
 }
 
+.product-details .products-list-thumb li:first-child {
+  margin-left: 0;
+}
+
 /* QUEM SOMOS */
 
 .structure p {
@@ -348,7 +356,8 @@ button.button-big {
   list-style: none;
 }
 
-.structure-type h2 {
+.structure-type h2,
+.products-list-thumb h2 {
   color: #666;
   font-family: 'League Gothic', arial, sans-serif;
   font-size: 30px;
