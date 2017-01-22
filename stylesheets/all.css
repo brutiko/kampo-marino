@@ -263,15 +263,8 @@ button.button-big {
   color: #fff;
 }
 
-.contact-form {
-  background: #ccc;
-}
-
-.contact-form p {
-  font-size: 16px;
-  font-style: italic;
-  height: 315px;
-  width: 300px;
+.contact-list {
+  text-align: left;
 }
 
 /* PRODUTOS */
@@ -279,7 +272,7 @@ button.button-big {
 .top-image {
   background: url(https://unsplash.it/3000/1500/?random) no-repeat;
   background-position: center;
-  height: 300px;
+  height: 340px;
   margin-bottom: 30px;
 }
 
@@ -289,7 +282,7 @@ button.button-big {
   line-height: 62px;
   letter-spacing: 0.5px;
   font-weight: 300;
-  padding-top: 120px;
+  padding-top: 160px;
 }
 
 .products-wrapper li {
@@ -443,6 +436,12 @@ footer .social-media li.social-media-instagram {
   background-image: url(../images/icons-sprite.png);
   background-position: -84px -95px;
   margin-right: 0;
+}
+
+/* CONTACT */
+
+.contact.section-block {
+  padding-top: 120px;
 }
 
 .contact-list li {
