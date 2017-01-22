@@ -50,6 +50,10 @@ a:hover {
   width: 168px;
 }
 
+#navbar.navbar-brand-scroll .logo {
+  background: url(../images/kampo-marino-logo-branco.png) no-repeat;
+}
+
 .principal-menu {
   float: right;
   margin-top: 20px;
