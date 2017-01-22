@@ -8,10 +8,12 @@ $(document).ready(function(){
           $('#navbar').css('background-color','#44384f');
           $('#navbar').addClass('navbar-brand-scroll');
           $('.logo').css('margin', '10px 0');
+          $('.principal-menu li a').css('color','#ffffff');
        } else {
           $('#navbar').css('background-color', 'transparent');
           $('#navbar').removeClass('navbar-brand-scroll');
           $('.logo').css('margin', '20px 0');
+          $('.principal-menu li a').css('color','#333333');
        }
    });
 });
