@@ -176,7 +176,7 @@ button.button-big {
 }
 
 .section-block {
-  padding: 90px 0;
+  padding: 130px 0;
 }
 
 .section-block a {
@@ -376,6 +376,10 @@ button.button-big {
   margin-left: 0;
 }
 
+.product-details-title {
+  margin-bottom: 30px;
+}
+
 /* QUEM SOMOS */
 
 .structure p {
@@ -397,7 +401,7 @@ button.button-big {
 /* FOOTER */
 
 footer {
-  background: url(https://unsplash.it/3000/1000/?random) center center no-repeat;
+  background: url(../images/bg-footer.png) center center no-repeat;
   color: #fff;
   padding: 40px 0 10px;
 }
@@ -529,6 +533,111 @@ footer .social-media li.social-media-instagram {
 .maps {
   margin-top: 20px;
 }
+
+
+/* SLIDER STYLE */
+
+
+/* jssor slider arrow navigator skin 05 css */
+        /*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        .jssora05l.jssora05lds      (disabled)
+        .jssora05r.jssora05rds      (disabled)
+        */
+
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('../img/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+        .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
+        .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
+        /* jssor slider thumbnail navigator skin 01 css *//*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/
+
+        .jssort01 .p {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 72px;
+          height: 72px;
+        }
+
+        .jssort01 .t {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border: none;
+        }
+
+        .jssort01 .w {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 100%;
+          height: 100%;
+        }
+
+        .jssort01 .c {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          width: 68px;
+          height: 68px;
+          border: none;
+          box-sizing: content-box;
+          background: url('../img/t01.png') -800px -800px no-repeat;    _background: none;
+        }
+
+        .jssort01 .pav .c {
+          top: 2px;    _top: 0px;
+          left: 2px;    _left: 0px;
+          width: 68px;
+          height: 68px;
+          border: none;    _border: none;
+          background-position: 50% 50%;
+        }
+
+        .jssort01 .p:hover .c {
+          top: 0px;
+          left: 0px;
+          width: 70px;
+          height: 70px;
+          border: none;
+          background-position: 50% 50%;
+        }
+
+        .jssort01 .p.pdn .c {
+          background-position: 50% 50%;
+          width: 68px;
+          height: 68px;
+          border: none;
+        }
+
+        * html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {    
+          /* ie quirks mode adjust */
+          width /**/: 72px;
+          height /**/: 72px;
+        }
+
+
 
 /* MEDIA QUERY */
 @media only screen and (max-width : 640px) {
