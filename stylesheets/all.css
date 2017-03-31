@@ -56,6 +56,10 @@ a:hover {
   width: 100px;
 }
 
+#navbar.navbar-brand-scroll .principal-menu {
+  margin-top: 20px;
+}
+
 #menu-icon {
   display: hidden;
   width: 40px;
@@ -78,7 +82,7 @@ a:hover {
 }
 
 .principal-menu li a {
-  color: #333;
+  color: #fff;
   font-weight: 300;
   font-size: 14px;
   padding-bottom: 5px;
@@ -104,8 +108,10 @@ a:hover {
 }
 
 .first-scroll {
-  background: url(https://unsplash.it/1600/2000/?random) no-repeat;
-  height: 100%;
+  background: url(../images/bg-first-scroll-4.png) no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  /*height: 100%;*/
 }
 
 .first-scroll .container {
@@ -114,9 +120,9 @@ a:hover {
 
 .main-title {
   color: #fff;
-  font-size: 50px;
-  font-weight: 600;
-  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
   margin: 0 auto 20px;
 }
 
@@ -136,9 +142,11 @@ a:hover {
 
 .subtitle {
   color: #fff;
-  font-size: 26px;
+  font-size: 20px;
+  font-weight: 300;
   margin-bottom: 20px;
-  text-align: center;
+  line-height: 28px;
+  letter-spacing: 0.015em;
 }
 
 button.button-big {
@@ -149,7 +157,6 @@ button.button-big {
   font-size: 16px;
   height: 60px;
   padding: 10px;
-  margin: auto;
   width: 300px;
 }
 
@@ -178,7 +185,7 @@ button.button-big {
 }
 
 .section-block {
-  padding: 130px 0;
+  padding: 80px 0;
 }
 
 .section-block a {
@@ -292,6 +299,12 @@ button.button-big {
   letter-spacing: 0.5px;
   font-weight: 300;
   padding-top: 160px;
+  text-align: center;
+}
+
+.products-wrapper aside,
+.products-wrapper .product-details {
+  margin-top: 60px;
 }
 
 .products-wrapper li {
@@ -392,6 +405,10 @@ button.button-big {
   list-style: none;
 }
 
+.structure-type img {
+  max-width: 100%;
+}
+
 .structure-type h2,
 .products-list-thumb h2 {
   color: #666;
@@ -400,10 +417,19 @@ button.button-big {
   letter-spacing: 0.3px;
 }
 
+.quem-somos-text {
+  padding-top: 40px;
+}
+
+.last-block {
+  padding-bottom: 80px;
+}
+
 /* FOOTER */
 
 footer {
   background: url(../images/bg-footer.png) center center no-repeat;
+  background-size: cover;
   color: #fff;
   padding: 40px 0 10px;
 }

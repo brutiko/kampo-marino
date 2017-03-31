@@ -13,7 +13,7 @@ $(document).ready(function(){
           $('#navbar').css('background-color', 'transparent');
           $('#navbar').removeClass('navbar-brand-scroll');
           $('.logo').css('margin', '20px 0');
-          $('.principal-menu li a').css('color','#333333');
+          $('.principal-menu li a').css('color','#ffffff');
        }
    });
 });
