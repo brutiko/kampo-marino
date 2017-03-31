@@ -121,9 +121,10 @@ a:hover {
 .main-title {
   color: #fff;
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 48px;
   margin: 0 auto 20px;
+  letter-spacing: 0.015em;
 }
 
 .section-title {
