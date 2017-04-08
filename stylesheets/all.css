@@ -497,6 +497,7 @@ button.button-big {
   font-family: 'League Gothic', arial, sans-serif;
   font-size: 30px;
   letter-spacing: 0.3px;
+  margin-bottom: 15px;
 }
 
 .quem-somos-text {
