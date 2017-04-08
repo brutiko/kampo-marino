@@ -47,6 +47,7 @@
     </script>
     <script type="text/javascript" src="javascript/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="javascript/bootstrap.js"></script>
+    <script type="text/javascript" src="javascript/main.js"></script>
     <script type="text/javascript" src="javascript/carousel.js"></script>
     <script type="text/javascript" src="javascript/top-menu.js"></script>
     
@@ -57,7 +58,7 @@
     <nav class="principal-nav" id="navbar">
       <div class="container">
         <a href="index.html">
-          <h1 class="logo">Kampo Marino</h1>
+          <h1 class="logo produtos-logo">Kampo Marino</h1>
         </a>
         <div>
           <ul class="principal-menu">
@@ -76,7 +77,7 @@
       </div>    
     </section>
 
-    <section class="products-wrapper container">
+    <section class="products-wrapper container" id="product-page">
       <aside class="three columns">
         <ul>
           <li>PEIXES</li>
@@ -111,118 +112,188 @@
       </aside>
 
       <section class="products-list-thumb nine columns">
-        <ul>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+      
+          <div class="four columns product-thumb-item">
+            <a href="produtos/camarao-rosa-amazonas.html">
+              <img src="images/thumb-camarao.png">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Camarão Rosa - Amazonas</h1>
+                <small>MOLUSCOS E CRUSTÁCEOS</small>
+              </span>
+              <div class="img-hover"></div>  
+            </a>
+          </div>
+
+          <div class="four columns product-thumb-item">
+            <a href="produtos/ovas-capelin.html">
+              <img src="images/thumb-ovas-tobiko.png">
+              <span>
+                <h1>Ovas de Capelin - Masago</h1>
+                <small>OVAS</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/anchova.html">
+              <img src="images/thumb-anchova.png">
               <span>
-                <h1>OVAS DE MASSAGO</h1>
-                <small>OVAS DE PEIXE</small>
-              </span>  
-            </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
-              <span>
-                <h1>TRUTA SALMONADA</h1>
+                <h1>Anchova</h1>
                 <small>PEIXES</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="four columns product-thumb-item">
+            <a href="produtos/kani-stick.html">
+              <img src="images/thumb-kani.png">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Kani Stick</h1>
+                <small>PREPARADOS</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/atum-galha-amarela.html">
+              <img src="images/thumb-atum.png">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Atum - Galha Amarela</h1>
+                <small>PEIXES</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/hokkigai.html">
+              <img src="images/thumb-hokkigai.png">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Hokkigai</h1>
+                <small>MOLUSCOS E CRUSTÁCEOS</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="four columns product-thumb-item">
+            <a href="produtos/ovas-salmao.html">
+              <img src="images/thumb-ovas-salmao.jpg">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Ovas de Salmão - Ikura</h1>
+                <small>OVAS</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/alga-marinha-temperada.html">
+              <img src="images/thumb-alga-marinha.png">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Alga Marinha Temperada</h1>
+                <small>PREPARADOS</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/escolar-peixe-prego.html">
+              <img src="images/thumb-peixe-prego.png">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Escolar - Peixe Prego</h1>
+                <small>PEIXES</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="four columns product-thumb-item">
+            <a href="produtos/atum-bluefin.html">
+              <img src="images/thumb-bluefin.png">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Atum Bluefin</h1>
+                <small>PEIXES</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/lula-calamar.html">
+              <img src="images/thumb-lula.jpg">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Lula Calamar</h1>
+                <small>MOLUSCOS E CRUSTÁCEOS</small>
               </span>  
             </a>
-          </li>
-          <li class="four columns">
-            <a href="produtos/ovas-massago.html">
-              <img src="https://unsplash.it/300/200/?random">
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/ovas-peixe-voador.html">
+              <img src="images/thumb-ovas-capelin.jpg">
               <span>
-                <h1>CAMARÃO</h1>
-                <small>CRUSTÁCEOS E MOLUSCOS</small>
+                <h1>Ovas de Peixe Voador - Tobiko</h1>
+                <small>OVAS</small>
               </span>  
             </a>
-          </li>
-        </ul>
-        <div class="clearfix"></div>
-        <button class="button-big">VER MAIS PRODUTOS &#9662</button>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="four columns product-thumb-item">
+            <a href="produtos/preparado-enguia.html">
+              <img src="images/thumb-unagi.png">
+              <span>
+                <h1>Enguia - Unagui e Anago Kabayaki - Preparado</h1>
+                <small>PREPARADOS</small>
+              </span>  
+            </a>
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/vieira.html">
+              <img src="images/thumb-vieira.png">
+              <span>
+                <h1>Vieira</h1>
+                <small>MOLUSCOS E CRUSTÁCEOS</small>
+              </span>  
+            </a>
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/enguia-unagui-anago.html">
+              <img src="images/thumb-unagi-preparado.png">
+              <span>
+                <h1>Enguia - Unagui e Anago Kabayaki</h1>
+                <small>PEIXES</small>
+              </span>  
+            </a>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="four columns product-thumb-item">
+            <a href="produtos/camarao-rosa-sul.html">
+              <img src="images/thumb-camarao-amazonas.png">
+              <span>
+                <h1>Camarão Rosa - Sul</h1>
+                <small>MOLUSCOS E CRUSTÁCEOS</small>
+              </span>  
+            </a>
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/polvo.html">
+              <img src="images/thumb-polvo.png">
+              <span>
+                <h1>Polvo</h1>
+                <small>MOLUSCOS E CRUSTÁCEOS</small>
+              </span>  
+            </a>
+          </div>
+          <div class="four columns product-thumb-item">
+            <a href="produtos/sanma.html">
+              <img src="images/thumb-sanma.png">
+              <span>
+                <h1>Sanma</h1>
+                <small>PEIXES</small>
+              </span>  
+            </a>
+          </div>
+          <div class="clearfix"></div>
+          <button class="button-big" id="loadMore" href="#">VER MAIS PRODUTOS &#9662</button>  
       </section>
     </section>
 

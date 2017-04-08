@@ -14,6 +14,7 @@ $(document).ready(function(){
           $('#navbar').removeClass('navbar-brand-scroll');
           $('.logo').css('margin', '20px 0');
           $('.principal-menu li a').css('color','#ffffff');
+          $('.principal-menu li a.produtos-menu').css('color','#333333');
        }
    });
 });

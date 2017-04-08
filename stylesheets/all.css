@@ -50,6 +50,10 @@ a:hover {
   width: 168px;
 }
 
+.logo.produtos-logo {
+  background: url(../images/kampo-marino-logo-white.png) no-repeat;
+}
+
 #navbar.navbar-brand-scroll .logo {
   background: url(../images/kampo-marino-logo-branco.png) no-repeat;
   height: 40px;
@@ -86,11 +90,22 @@ a:hover {
   font-weight: 300;
   font-size: 14px;
   padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.principal-menu li a.produtos-menu {
+  color: #333;
+  font-weight: 400;
+}
+
+.principal-menu li a.produtos-menu:hover {
+  color: #333;
+  border-bottom: 3px solid #333;
 }
 
 .principal-menu li a:hover {
-  border-bottom: 3px solid #484577;
-  color: #484577;
+  border-bottom: 3px solid #fff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -108,22 +123,22 @@ a:hover {
 }
 
 .first-scroll {
-  background: url(../images/bg-first-scroll-4.png) no-repeat;
+  background: url(../images/bg-first-scroll-11.png) no-repeat;
   max-width: 100%;
-  background-size: cover;
+  background-size: 100%;
   /*height: 100%;*/
 }
 
 .first-scroll .container {
-  padding: 15%;
+  padding: 15% 3%;
 }
 
 .main-title {
   color: #fff;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 48px;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
   letter-spacing: 0.015em;
 }
 
@@ -145,7 +160,7 @@ a:hover {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   line-height: 28px;
   letter-spacing: 0.015em;
 }
@@ -215,7 +230,8 @@ button.button-big {
 }
 
 .how .container {
-  background: url(https://unsplash.it/1600/2000/?random) no-repeat;
+  background: url(../images/bg-quem-faz.png) no-repeat;
+  background-size: 100%;
 }
 
 .how .board {
@@ -284,13 +300,38 @@ button.button-big {
   text-align: left;
 }
 
+/* QUOTATIONS */
+
+#quotation-section h1,
+#quotation-section p {
+  color: #fff;
+  text-align: center;
+}
+
+#quotation-section small {
+  color: #fff;
+  font-style: italic;
+}
+
+#quotation-section span {
+  display: inline-block;
+  margin: 10px 0 20px;
+  color: #fff;
+}
+
+
 /* PRODUTOS */
 
 .top-image {
-  background: url(https://unsplash.it/3000/1500/?random) no-repeat;
+  background: url(../images/kampo-marino-produtos.png) no-repeat;
   background-position: center;
+  background-size: 100%;
   height: 340px;
   margin-bottom: 30px;
+}
+
+.top-image.quem-somos-bg {
+  background: url(http://placehold.it/1600x800) no-repeat;
 }
 
 .top-image .main-title {
@@ -317,7 +358,7 @@ button.button-big {
 }
 
 .products-wrapper aside li a {
-  color: #44384f;
+  color: #48457F;
   padding: 4px;
 }
 
@@ -338,28 +379,64 @@ button.button-big {
 .products-list-thumb span {
   display: block;
   padding: 10px;
+  min-height: 115px;
 }
 
 .products-list-thumb li,
+.products-list-thumb .product-thumb-item,
 .products-list-thumb li:first-child {
   background-color: #f5f5f5;
   margin: 0 10px 20px;
 }
 
-.products-list-thumb li img {
+.products-list-thumb li:hover,
+.products-list-thumb .product-thumb-item:hover {
+  background-color: #44384f;
+  text-decoration: none;
+  color: #fff;
+}
+
+.products-list-thumb li:hover a,
+.products-list-thumb .product-thumb-item:hover a {
+  color: #fff;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.products-list-thumb li img,
+.products-list-thumb .product-thumb-item img {
   max-width: 100%;
+}
+
+#product-page aside {
+  margin-top: 0;
+}
+
+.img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  display: none; 
+}
+
+.post-thumb-img:hover .img-hover {
+  display: block; 
 }
 
 .products-list-thumb h1 {
   font-family: 'League Gothic', arial, sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   letter-spacing: 0.5px;
-  margin: 10px 0 10px;
+  margin: 10px 0 5px;
   line-height: 30px;
 }
 
 .products-list-thumb small {
   margin-top: 0;
+  font-size: 12px;
 }
 
 /* PRODUTOS DETALHE */
@@ -396,6 +473,10 @@ button.button-big {
   margin-bottom: 30px;
 }
 
+.product-thumb-item {
+  display: none;
+}
+
 /* QUEM SOMOS */
 
 .structure p {
@@ -429,7 +510,7 @@ button.button-big {
 /* FOOTER */
 
 footer {
-  background: url(../images/bg-footer.png) center center no-repeat;
+  background: url(../images/bg-footer-2.png) center center no-repeat;
   background-size: cover;
   color: #fff;
   padding: 40px 0 10px;
