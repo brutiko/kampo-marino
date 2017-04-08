@@ -259,6 +259,7 @@ button.button-big {
 .products-thumbs li {
   float: left;
   list-style: none;
+  margin: 0 0 2% 2%;
 }
 
 .products-thumbs li.third-child {
