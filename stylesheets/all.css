@@ -42,6 +42,7 @@ a:hover {
 
 .logo {
   background: url(../images/kampo-marino-logo.png) no-repeat;
+  background-size: 100%;
   display: block;
   float: left;
   height: 66px;
@@ -754,6 +755,30 @@ footer .social-media li.social-media-instagram {
 /* MEDIA QUERY */
 @media only screen and (max-width : 640px) {
 
+  .first-scroll {
+    background-image: none;
+  }
+
+  .main-title {
+    color: #333;
+    margin-top: 40px;
+  }
+
+  .subtitle {
+    color: #333;
+  }
+
+  .principal-nav {
+    background-color: #fff;
+  }
+
+  .logo {
+    margin: 10px 0px;
+    width: 30%;
+    background-size: 100%;
+    height: auto;
+  }
+
   #menu-icon {
     display: inline-block;
     float: right;
@@ -762,6 +787,42 @@ footer .social-media li.social-media-instagram {
 
   .principal-nav {
     position: absolute;
+  }
+
+  .why.section-block {
+    border-top: solid 1px #ccc;
+  }
+
+  .why .image-medium {
+    margin-bottom: 20px;
+  }
+
+  .how .board {
+    margin-top: 0;
+    padding: 20px 40px;
+  }
+
+  .how .container {
+    background-image: none;
+  }
+
+  .products h1, .products p,
+  .contact h1, .contact p {
+    text-align: left;
+  }
+
+  .products hr, .products a,
+  .contact hr, .contact a {
+    float: left;
+  }
+
+  .products a {
+    margin-bottom: 30px;
+  }
+
+  .products-thumbs li {
+    float: none;
+    margin: 0;
   }
 
   nav ul, nav:active ul { 
@@ -791,6 +852,27 @@ footer .social-media li.social-media-instagram {
 
   nav:hover ul {
     display: block;
+  }
+
+  footer a {
+    color: #fff;
+  }
+
+  footer .address {
+    margin-top: 10px;
+  }
+
+  footer .social-media {
+    float: none;
+    margin-top: 50px;
+  }
+
+  footer .footer-grid {
+    margin-bottom: 20px;
+  }
+
+  footer .copyright p {
+    text-align: left;
   }
 }
 
