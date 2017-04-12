@@ -538,25 +538,23 @@ footer .social-media {
 }
 
 footer .social-media li {
-  display: inline;
   float: left;
+}
+
+footer .social-media li a {
+  display: inline-block;
   margin: 0 14px;
   height: 36px;
   text-indent: -20000px;
   width: 36px;
 }
 
-footer .social-media li.social-media-google {
-  background-image: url(../images/icons-sprite.png);
-  background-position: -84px -5px;
-}
-
-footer .social-media li.social-media-facebook {
+footer .social-media li a.social-media-facebook {
   background-image: url(../images/icons-sprite.png);
   background-position: -84px -47px;
 }
 
-footer .social-media li.social-media-instagram {
+footer .social-media li a.social-media-instagram {
   background-image: url(../images/icons-sprite.png);
   background-position: -84px -95px;
   margin-right: 0;
