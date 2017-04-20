@@ -25,6 +25,10 @@ html{
 	border:none;
 }
 
+.wufoo li {
+	width: 100%;
+}
+
 .wufoo li.focused{
 	background-color:#e6e6fa;
 }

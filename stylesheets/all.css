@@ -231,7 +231,7 @@ button.button-big {
 }
 
 .how .container {
-  background: url(../images/bg-quem-faz.png) no-repeat;
+  background: url(../images/bg-quem-faz-2.png) no-repeat;
   background-size: 100%;
 }
 
@@ -508,6 +508,14 @@ button.button-big {
 
 .last-block {
   padding-bottom: 80px;
+}
+
+.contact-form {
+  max-width: 500px;
+}
+
+.contact-form-text {
+  padding-top: 30px;
 }
 
 /* FOOTER */
