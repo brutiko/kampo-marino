@@ -9,13 +9,18 @@ $(document).ready(function(){
           $('#navbar').addClass('navbar-brand-scroll');
           $('.logo').css('margin', '10px 0');
           $('.principal-menu li a').css('color','#ffffff');
+          $('.principal-menu li a.produtos-menu:hover').css('border-bottom-color','#ffffff');
+          $('.principal-menu li a.produtos-menu:hover').css('border-bottom-size','3px');
+          $('.principal-menu li a.produtos-menu:hover').css('border-bottom-style','solid');
        } else {
           $('#navbar').css('background-color', 'transparent');
           $('#navbar').removeClass('navbar-brand-scroll');
           $('.logo').css('margin', '20px 0');
           $('.principal-menu li a').css('color','#ffffff');
-          $('.principal-menu li a.produtos-menu').css('color','#333333');
+          $('.principal-menu li a.produtos-menu').css('color','#ffffff');
+          $('.principal-menu li a.produtos-menu:hover').css('border-bottom-color','#ffffff');
+          $('.principal-menu li a.produtos-menu:hover').css('border-bottom-size','3px');
+          $('.principal-menu li a.produtos-menu:hover').css('border-bottom-style','solid');
        }
    });
 });
-

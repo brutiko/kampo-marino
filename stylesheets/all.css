@@ -101,13 +101,33 @@ a:hover {
 
 .principal-menu li a.produtos-menu:hover {
   color: #333;
-  border-bottom: 3px solid #333;
+  border-bottom: 3px solid #fff;
 }
 
 .principal-menu li a:hover {
   border-bottom: 3px solid #fff;
   color: #fff;
   text-decoration: none;
+}
+
+.principal-menu.product-detail li a {
+  color: #333;
+}
+
+.principal-menu.product-detail li a:hover {
+  border-bottom: 3px solid #333;
+  color: #333;
+  text-decoration: none;
+}
+
+.principal-menu.product-detail li a.navbar-link-style:hover {
+  color: #fff;
+  border-bottom: #fff solid 3px;
+}
+
+.principal-menu.product-detail li a.navbar-no-bg:hover {
+  color: #333;
+  border-bottom: #333 solid 3px;
 }
 
 .content {
@@ -362,6 +382,7 @@ button.button-big {
 .products-wrapper aside li a {
   color: #48457F;
   padding: 4px;
+  line-height: 26px;
 }
 
 .products-wrapper aside li a:hover {
