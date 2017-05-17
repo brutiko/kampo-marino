@@ -782,7 +782,7 @@ footer .social-media li a.social-media-instagram {
 
 
 /* MEDIA QUERY */
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width:640px) {
 
   .first-scroll {
     background-image: none;
@@ -806,6 +806,10 @@ footer .social-media li a.social-media-instagram {
     width: 30%;
     background-size: 100%;
     height: auto;
+  }
+
+  .top-image {
+    background-image: none;
   }
 
   #menu-icon {
@@ -852,6 +856,14 @@ footer .social-media li a.social-media-instagram {
   .products-thumbs li {
     float: none;
     margin: 0;
+  }
+
+  .products-list-thumb .product-thumb-item {
+    margin: 0 0 20px;
+  }
+
+  .products-wrapper aside {
+    display: none;
   }
 
   nav ul, nav:active ul { 
