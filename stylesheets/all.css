@@ -794,20 +794,22 @@ footer .social-media li a.social-media-instagram {
 @media only screen and (max-width:640px) {
 
   .first-scroll {
-    background-image: none;
+    background-size: cover;
+    background-position: center;
+    /* background-image: none; */
   }
 
   .main-title {
-    color: #333;
-    margin-top: 40px;
+    color: #fff;
+    margin-top: 60px;
   }
 
   .subtitle {
-    color: #333;
+    color: #fff;
   }
 
   .principal-nav {
-    background-color: #fff;
+    /* background-color: #fff; */
   }
 
   .logo {
@@ -818,7 +820,8 @@ footer .social-media li a.social-media-instagram {
   }
 
   .top-image {
-    background-image: none;
+    background-size: cover;
+    background-position: center;
   }
 
   #menu-icon {
@@ -833,6 +836,7 @@ footer .social-media li a.social-media-instagram {
 
   .why.section-block {
     border-top: solid 1px #ccc;
+    margin-bottom: 80px;
   }
 
   .why .image-medium {
