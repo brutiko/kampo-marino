@@ -168,7 +168,7 @@ a:hover {
   font-weight: 300;
   font-size: 30px;
   line-height: 32px;
-  margin: 0px; 
+  margin: 0px;
 }
 
 .section-title span {
@@ -389,7 +389,7 @@ button.button-big {
 
 .products-wrapper aside li a:hover {
   background-color: #44384f;
-  text-decoration: none; 
+  text-decoration: none;
   color: #fff;
 }
 
@@ -399,6 +399,10 @@ button.button-big {
 
 .products-wrapper button {
   margin: 40px auto 80px;
+}
+
+.products-list-thumb {
+    margin-bottom: 100px;
 }
 
 .products-list-thumb span {
@@ -444,11 +448,11 @@ button.button-big {
   background: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
-  display: none; 
+  display: none;
 }
 
 .post-thumb-img:hover .img-hover {
-  display: block; 
+  display: block;
 }
 
 .products-list-thumb h1 {
@@ -499,7 +503,7 @@ button.button-big {
 }
 
 .product-thumb-item {
-  display: none;
+  /* display: none; */
 }
 
 /* QUEM SOMOS */
@@ -636,7 +640,7 @@ footer .social-media li a.social-media-instagram {
   text-indent: -20000px;
   width: 40px;
   background-image: url(../images/icons-sprite.png);
-  background-position: -39px -109px;  
+  background-position: -39px -109px;
 }
 
 .contact-info li {
@@ -773,7 +777,7 @@ footer .social-media li a.social-media-instagram {
           border: none;
         }
 
-        * html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {    
+        * html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {
           /* ie quirks mode adjust */
           width /**/: 72px;
           height /**/: 72px;
@@ -866,7 +870,7 @@ footer .social-media li a.social-media-instagram {
     display: none;
   }
 
-  nav ul, nav:active ul { 
+  nav ul, nav:active ul {
     display: none;
     position: absolute;
     padding: 20px;
@@ -918,5 +922,3 @@ footer .social-media li a.social-media-instagram {
     text-align: left;
   }
 }
-
-
