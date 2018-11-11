@@ -801,7 +801,7 @@ footer .social-media li a.social-media-instagram {
 
   .main-title {
     color: #fff;
-    margin-top: 60px;
+    padding-top: 60px;
   }
 
   .subtitle {
@@ -819,7 +819,8 @@ footer .social-media li a.social-media-instagram {
     height: auto;
   }
 
-  .top-image {
+  .top-image,
+  .top-image.quem-somos-bg {
     background-size: cover;
     background-position: center;
   }
@@ -900,6 +901,12 @@ footer .social-media li a.social-media-instagram {
     width: 100%;
     padding: 10px 0;
     margin: 0;
+    display: block;
+  }
+
+  .principal-menu {
+    height: 100%;
+    width: 100%;
   }
 
   .principal-nav li a {
