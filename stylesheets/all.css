@@ -144,7 +144,7 @@ a:hover {
 }
 
 .first-scroll {
-  background: url(../images/bg-first-scroll-12.png) no-repeat;
+  background: url(../images/bg_home-picture.png) no-repeat;
   max-width: 100%;
   background-size: 100%;
   /*height: 100%;*/
@@ -152,6 +152,7 @@ a:hover {
 
 .first-scroll .container {
   padding: 15% 3%;
+  text-align: center;
 }
 
 .main-title {
@@ -195,6 +196,10 @@ button.button-big {
   height: 60px;
   padding: 10px;
   width: 300px;
+}
+
+.first-scroll button.button-big {
+  margin: auto;
 }
 
 .image-medium {
