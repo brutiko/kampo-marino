@@ -335,9 +335,25 @@ button.button-big {
   text-align: center;
 }
 
+#quotation-section h2 {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 20px;
+}
+
+#quotation-section hr {
+  background-color: #fff;
+  display: block;
+  margin: 0 auto 20px;
+}
+
 #quotation-section small {
   color: #fff;
   font-style: italic;
+  text-align: right;
 }
 
 #quotation-section span {
