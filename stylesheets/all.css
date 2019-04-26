@@ -398,14 +398,32 @@ button.button-big {
   list-style: none;
 }
 
+.products-wrapper li:first-child {
+  margin-bottom: 20px;
+}
+
 .products-wrapper aside li {
   color: #666;
 }
 
-.products-wrapper aside li a {
+.products-wrapper hr {
+  float: left;
+  margin: 8px 15px 0 0;
+}
+
+.products-wrapper li h3 {
   color: #48457F;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: normal;
+  margin-left: 0px;
+}
+
+.products-wrapper aside li a {
+  color: #666;
   padding: 4px;
   line-height: 26px;
+  font-weight: 400;
 }
 
 .products-wrapper aside li a:hover {
