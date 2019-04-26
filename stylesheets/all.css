@@ -569,7 +569,20 @@ button.button-big {
 }
 
 .quem-somos-text {
-  padding-top: 40px;
+  background: #f1f2f2;
+  padding: 100px 0;
+}
+
+.top-image.quem-somos-bg {
+  margin-bottom: 0;
+}
+
+.quem-somos-kampomarino h1 {
+  text-align: right;
+}
+
+.quem-somos-kampomarino hr {
+  float: right;
 }
 
 .last-block {
