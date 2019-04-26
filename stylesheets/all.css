@@ -829,6 +829,24 @@ footer .social-media li a.social-media-instagram {
 
 
 /* MEDIA QUERY */
+
+@media only screen and (max-width:1130px) {
+
+  .container {
+    width: 100%;
+    padding: 5%;
+  }
+
+  #product-page.products-wrapper aside {
+    display: none;
+  }
+
+  .products-list-thumb {
+    width: 100%;
+  }
+}
+
+
 @media only screen and (max-width:640px) {
 
   .container {
