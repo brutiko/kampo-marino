@@ -894,11 +894,13 @@ footer .social-media li a.social-media-instagram {
     color: #fff;
     padding-top: 60px;
     font-size: 2.0em;
+    font-weight: 400;
     line-height: 1.2em;
   }
 
   .subtitle {
     color: #fff;
+    font-weight: 400;
   }
 
   .principal-nav {
