@@ -157,7 +157,7 @@ a:hover {
 
 .main-title {
   color: #fff;
-  font-size: 45px;
+  font-size: 2.8125em;
   font-weight: 300;
   line-height: 52px;
   margin: 0 auto 10px;
@@ -869,6 +869,11 @@ footer .social-media li a.social-media-instagram {
     background-size: 150%;
     background-position: center;
   }
+
+  .how .container {
+    background-size: 300%;
+    background-position: center;
+  }
 }
 
 
@@ -888,6 +893,8 @@ footer .social-media li a.social-media-instagram {
   .main-title {
     color: #fff;
     padding-top: 60px;
+    font-size: 2.0em;
+    line-height: 1.2em;
   }
 
   .subtitle {
@@ -927,7 +934,7 @@ footer .social-media li a.social-media-instagram {
 
   .why.section-block {
     border-top: solid 1px #ccc;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
 
   .why .image-medium {
@@ -937,10 +944,12 @@ footer .social-media li a.social-media-instagram {
   .how .board {
     margin-top: 0;
     padding: 20px 40px;
+    margin-bottom: 0;
   }
 
   .how .container {
-    /* background-image: none; */
+    background-size: 350%;
+    background-position: center;
   }
 
   .products h1, .products p,
