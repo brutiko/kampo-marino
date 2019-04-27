@@ -852,12 +852,22 @@ footer .social-media li a.social-media-instagram {
     padding: 5%;
   }
 
+  #navbar .container {
+    padding: 0 5%;
+  }
+
   #product-page.products-wrapper aside {
     display: none;
   }
 
-  .products-list-thumb {
+  .products-list-thumb.nine {
     width: 100%;
+    margin: 0 auto 0;
+  }
+
+  .first-scroll {
+    background-size: 150%;
+    background-position: center;
   }
 }
 
