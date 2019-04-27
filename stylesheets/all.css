@@ -880,7 +880,7 @@ footer .social-media li a.social-media-instagram {
   }
 
   .first-scroll {
-    background-size: cover;
+    background-size: 400%;
     background-position: center;
     /* background-image: none; */
   }
@@ -895,11 +895,11 @@ footer .social-media li a.social-media-instagram {
   }
 
   .principal-nav {
-    /* background-color: #fff; */
+    background-color: rgba(255, 255, 255, 0.5);
   }
 
   #navbar .container {
-    background-color: #fff;
+    /* background-color: #fff; */
   }
 
   .logo {
@@ -918,7 +918,7 @@ footer .social-media li a.social-media-instagram {
   #menu-icon {
     display: inline-block;
     float: right;
-    margin: 20px 0;
+    margin: 10px 0;
   }
 
   .principal-nav {
