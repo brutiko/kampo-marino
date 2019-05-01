@@ -989,7 +989,7 @@ footer .social-media li a.social-media-instagram {
 
   nav ul, nav:active ul.principal-menu {
     display: none;
-    position: absolute;
+    position: fixed;
     /* padding: 20px; */
     background: #333;
     color: #fff;
